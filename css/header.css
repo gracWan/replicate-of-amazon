@@ -1,0 +1,354 @@
+body {font-family: Arial, sans-serif; margin:0}
+
+
+
+.header{
+  background-color: rgb(9, 9, 22);
+  color: white;
+  height: 53px;
+  display: flex;
+  margin-top: 0px;
+  margin-right:0px;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height:60px;
+  min-width:1100px;
+  justify-content: space-evenly;
+}
+
+.Amazon-logo{
+  height: 30px;
+  padding-top: 12px;
+  padding-bottom: 7px;
+  padding-right: 9px;
+  padding-left: 4px;
+}
+
+.Amazon-logo:hover{
+  outline-color: white;
+  outline: solid;
+  outline-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.combo{
+  position: relative;
+  padding: 0;
+  background-color: rgb(44, 48, 71);
+  margin-top: -15px;
+  margin-right:0px;
+  margin-left: 0px;
+  min-width:1100px;
+}
+
+.delivery{
+  padding-top: 7px;
+  margin-right: 25px;
+  height: 41px;
+  width: 150px;
+  white-space: nowrap;
+}
+
+.delivery:hover{
+  outline:solid;
+  outline-color: white;
+  outline-width: 1px;
+  border-radius: 2px;
+}
+
+.location-div,.delivery-text {
+  display: inline-block;
+}
+
+.delivery-name{
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: rgb(161, 161, 161);
+}
+
+.delivery-text{
+  font-family: Arial, sans-serif;
+  font-size: 14.5px;
+  font-weight: bold;
+}
+
+.location{
+  width: 16px;
+}
+
+.search-box{
+  height: 37px;
+  margin-left: -2px;
+  outline-color:none;
+  flex: 1;
+}
+
+.search-box::placeholder{
+  font-family:Arial, sans-serif;
+}
+
+.search-box-div{
+  flex: 1;
+  display: flex;
+}
+
+.search{
+  display: flex;
+  flex: 1;
+  min-width: 400px;
+  flex-direction:row;
+}
+
+.search-button{
+  height: 32px;
+  background-color:orange;
+  border-radius: 5px;
+  margin-left: -5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.search-all{
+  background-color: rgb(238, 238, 238);
+  height: 27px;
+  white-space: nowrap;
+  color: rgb(46, 46, 46);
+  padding-top: 14px;
+  font-family:Arial, sans-serif;
+  font-size: 12px;
+  padding-right:10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-top: 1px;
+}
+
+.search-icon{
+  height:25px;
+}
+
+.country{
+  white-space: nowrap;
+  padding-top: 7px;
+  padding-left: 5px;
+  padding-bottom:7px;
+  padding-right: 3px;
+  margin-right:5px;
+  margin-left: 5px;
+  width: 60px;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+.country:hover{
+  outline: solid;
+  outline-width:1px;
+}
+
+.American-flag{
+  width:30px;
+  height: 40px;
+}
+
+.accounts{
+  white-space: nowrap;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.accounts-innertext{
+  font-weight:bold;
+}
+
+.accounts:hover{
+  outline: solid;
+  outline-width: 1px;
+}
+
+.orders{
+  white-space: nowrap;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+
+}
+
+.order-text{
+  font-weight:bold;
+}
+
+.orders:hover{
+  outline-style:solid;
+  outline-color: white;
+  border-radius: 2px;
+  outline-width: 1px;
+}
+
+.cart-icon{
+  width: 60px;
+  height: 36px;
+ 
+}
+
+.cart-div{
+  position: relative;
+  margin-bottom: 10px;
+
+}
+
+.menu:hover{
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: white;
+  border-radius: 2px;
+
+}
+
+
+.cart-text{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.number-items{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(255, 123, 0);
+  position: absolute;
+  top: -3px;
+  right: 23px;
+  
+}
+
+.under-section{
+  display: flex;
+  background-color: rgb(44, 48, 71);
+  margin-right:0px;
+  margin:0px;
+}
+
+.menu{
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.javascript-main{
+  background-color: rgb(44, 48, 71);
+  height: 35px;
+  white-space: nowrap;
+  margin-left: 10px;
+  padding-top: 5px;
+  display: inline-block;
+}
+
+.hamburger-icon{
+  height: 25px;
+}
+
+.menu-button{
+  height: 30px;
+  background-color: rgb(44, 48, 71);
+  outline: solid;
+  display: flex;
+  align-items:center;
+  outline-color: rgb(44, 48, 71);
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.menu-button-text{
+  display: inline-block;
+  color: white;
+  padding-left: 5px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.hamburger-div{
+  display: inline-block;
+}
+
+.body{
+  margin: 0;
+  padding: 0;
+  height: 3000px;
+  background-color: red;
+  
+}
+
+.right-section{
+  display:flex;
+  align-items: center;
+  width: 500px;
+}
+
+.testing2{
+  color: white;
+  display: inline-block;
+  margin-right: 10px;
+  outline-style: solid;
+  outline-color: rgb(44, 48, 71);
+  height: 20px;
+  background-color: rgb(44, 48, 71);
+  align-items:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.testing{
+  color: white;
+  display: inline-block;
+  margin-right: 10px;
+  outline-style: solid;
+  outline-color: rgb(44, 48, 71);
+  height: 20px;
+  background-color: rgb(44, 48, 71);
+  align-items:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.testing:hover, .testing2:hover{
+  outline-style: solid;
+  outline-color: white;
+  border-radius: 2px;
+  outline-width: 1px;
+}
+
+@media (max-width: 1200px) {
+  .testing2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cart-text {
+    display: none;
+  }
+}

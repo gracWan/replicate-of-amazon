@@ -1,0 +1,126 @@
+.box-all{
+    display:flex;
+    z-index: 10;
+    min-width:1100px; 
+    position: absolute;
+    top: 280px;
+}
+
+.box-1{
+    z-index: 10;
+    background-color: white;
+    height: 430px;
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right:10px;
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    border-style:solid;
+    margin-left: 30px;
+}
+
+.box-2{
+    z-index: 10;
+    background-color: white;
+    height: 430px;
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    min-width:300px;
+    max-width: 400px;
+    border-style:solid;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.box-3{
+    z-index: 10;
+    background-color: white;
+    height: 430px;
+    flex-grow:1;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    min-width:300px;
+    max-width: 400px;
+    border-style:solid;
+    margin-right: 30px;
+}
+
+.box-4{
+    z-index: 10;
+    background-color: white;
+    height: 120px;
+    min-width: 350;
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    min-width:300px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.grid-template{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+}
+
+.link-font{
+    font-style: Arial;
+    font-size: 13px;
+    color:teal;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.link-font:hover{
+    color: rgb(216, 79, 0);
+    text-decoration: underline;
+}
+
+.text-description{
+    font-style: Verdana;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+    width: 150px;
+    font-weight: 400;
+}
+
+.recent{
+    flex-grow: 1;
+    flex-shrink:1;    
+}
+
+.recent:hover{
+    cursor: pointer;
+}
+
+.recently-viewed{
+    height:150px;
+}
+
+@media (max-width: 1550px) {
+    .box-4 {
+      display: none;
+    }
+  }
+  
+
+
+
+  
